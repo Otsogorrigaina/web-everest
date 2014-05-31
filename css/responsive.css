@@ -77,7 +77,7 @@ article.format-aside .entry-title,
 	margin-bottom: 0;
 }
 .container {
-	/* ESTILOS COMENTADOS
+	/*ESTILOS COMENTADOS
 	padding: 0 50px;
 	padding: 0 5rem;*/
 }
@@ -206,7 +206,7 @@ article.format-aside .entry-title,
 	margin-bottom: 1rem;
 }
 .container {
-	/* ESTILOS COMENTADOS
+	/*ESTILOS COMENTADOS
 	padding: 0 30px;
 	padding: 0 3rem;*/
 }
@@ -590,7 +590,7 @@ textarea {
 }
 
 
-/*ESTILOS NUESTROS features  */
+/*ESTILOS NUESTROS*/
 #featured-post .post{
 	width:100%;
 	
@@ -622,8 +622,66 @@ textarea {
 	font-size: 12px;
     font-size: 1.1rem;
 }
+/*ESTILOS NUESTROS*/
 #hgroup-wrap{
+	height:0px;
+	
+}
+
+#header-left{
 	display:none;
 }
+
+#header-right{
+	position: absolute;
+	margin-top: -3%;
+	padding-top: 0px;
+	margin-left: 40%;
+	width:40%;
+}
+
+
+
+
+
+
+
+
+/*#idiomas{
+	position:absolute;
+	top:0px;
+	height:100%;
+	width:33%;
+	line-height:350%;
+	text-align:center;
+}
+
+#idiomas a{
+float:left;
+height:100%;
+width:50%;
+display:block;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+#idiomas a:hover{
+background-color:#333;
+color: rgb(0, 136, 204);
+}
+
+#buscar{
+	position:absolute;
+	top:0px;
+	height:100%;
+	width:30%;
+	line-height:350%;
+	text-align:center;
+	margin-left:30%;
+}
+*/
+/*fin estilos nuestros*/
+
 }
 
