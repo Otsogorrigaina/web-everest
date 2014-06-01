@@ -103,6 +103,14 @@ article.format-aside .entry-title,
 	float:left;
 	width:75%;/*antes 68%*/
 }
+
+#header-right {
+    padding:0px;/*antes no estaba*/
+    margin-top:215px;/*antes no estaba*/
+    margin-right:-34%;/*antes no estaba*/
+
+}
+
 #header-menu{
 	float:left;
 	width:25%;/*antes 22%*/
@@ -231,6 +239,14 @@ article.format-aside .entry-title,
 	float:left;
 	width:75%;/*antes 68%;*/
 }
+
+#header-right {
+    padding:0px;/*antes no estaba*/
+    margin-top:215px;/*antes no estaba*/
+    margin-right:-34%;/*antes no estaba*/
+
+}
+
 #header-menu{
 	float:left;
 	width:25%;/*antes 22%;*/
@@ -321,6 +337,14 @@ textarea {
 	float:left;
 	width:75%;/* antes 100%;*/
 }
+
+#header-right {
+    padding:0px;/*antes no estaba*/
+    margin-top:215px;/*antes no estaba*/
+    margin-right:-34%;/*antes no estaba*/
+
+}
+
 #header-menu{
 	float:left;
 	width:25%;/*antes 22%;*/
@@ -365,6 +389,7 @@ and (orientation : portrait) {
 	float:left;
 	width:70%;
 }
+
 #header-menu{
 	float:left;
 	width:22%;
@@ -394,8 +419,13 @@ and (orientation : portrait) {
 
 #header-right {
     max-width: 100%;
-    width: 100%;
+    /*width: 100%;*/
+    padding:0px;/*antes no estaba*/
+    margin-top:215px;/*antes no estaba*/
+    margin-right:-43%;/*antes no estaba*/
 }
+
+
 
 /*ESTILOS NUESTROS*/
 #main{
