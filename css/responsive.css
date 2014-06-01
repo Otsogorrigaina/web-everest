@@ -101,11 +101,11 @@ article.format-aside .entry-title,
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
 	float:left;
-	width:68%;
+	width:75%;/*antes 68%*/
 }
 #header-menu{
 	float:left;
-	width:22%;
+	width:25%;/*antes 22%*/
 }
 /*fin estilos nuestros*/
 
@@ -229,11 +229,11 @@ article.format-aside .entry-title,
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
 	float:left;
-	width:68%;
+	width:75%;/*antes 68%;*/
 }
 #header-menu{
 	float:left;
-	width:22%;
+	width:25%;/*antes 22%;*/
 }
 
 /*fin estilos nuestros*/
@@ -319,11 +319,11 @@ textarea {
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
 	float:left;
-	width:100%;/* antes 68%;*/
+	width:75%;/* antes 100%;*/
 }
 #header-menu{
 	float:left;
-	width:22%;
+	width:25%;/*antes 22%;*/
 }
 /*fin estilos nuestros*/
 
@@ -391,6 +391,7 @@ and (orientation : portrait) {
     font-size: 1.3rem;
     line-height: 1.4;
 }
+
 #header-right {
     max-width: 100%;
     width: 100%;
@@ -447,12 +448,13 @@ margin-right:1.5rem;
 #secondary {
     width: 100%;
 }
+
 #header-menu ul.menu a, #colophon #access-footer ul.menu a {
 	padding: 0 10px;
     	padding: 0 1rem;
 }
 
-/*ESTILOS NUESTROS features*/
+/*ESTILOS NUESTROS*/
 #featured-post article:nth-child(even),
 #featured-post .post.first:nth-child(even){
 	margin-left:10%;
@@ -486,6 +488,10 @@ figure.featured-homepage-image a img {
 }
 
 /*ESTILOS NUESTROS*/
+#hgroup-wrap{
+	width:70%;
+}
+
 #header-menu{
 	
 	width:30%;/*antes 100%*/
