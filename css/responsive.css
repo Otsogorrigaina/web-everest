@@ -101,19 +101,20 @@ article.format-aside .entry-title,
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
 	float:left;
-	width:75%;/*antes 68%*/
+	width:100%;
 }
 
 #header-right {
-    padding:0px;/*antes no estaba*/
-    margin-top:215px;/*antes no estaba*/
-    margin-right:-34%;/*antes no estaba*/
-
+    padding:0px;
+    margin-top:215px;
+    width:28%;
 }
 
 #header-menu{
-	float:left;
-	width:25%;/*antes 22%*/
+	
+	width:28%;/*antes 100%*/
+	position:absolute;
+	margin-left:72%;
 }
 /*fin estilos nuestros*/
 
@@ -237,21 +238,21 @@ article.format-aside .entry-title,
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
 	float:left;
-	width:75%;/*antes 68%;*/
+	width:100%;
 }
 
 #header-right {
-    padding:0px;/*antes no estaba*/
-    margin-top:215px;/*antes no estaba*/
-    margin-right:-34%;/*antes no estaba*/
-
+    padding:0px;
+    margin-top:215px;
+    width:28%;
 }
 
 #header-menu{
-	float:left;
-	width:25%;/*antes 22%;*/
+	
+	width:28%;/*antes 100%*/
+	position:absolute;
+	margin-left:72%;
 }
-
 /*fin estilos nuestros*/
 
 #site-generator .site-info {
@@ -335,19 +336,20 @@ textarea {
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
 	float:left;
-	width:75%;/* antes 100%;*/
+	width:100%;
 }
 
 #header-right {
-    padding:0px;/*antes no estaba*/
-    margin-top:215px;/*antes no estaba*/
-    margin-right:-34%;/*antes no estaba*/
-
+    padding:0px;
+    margin-top:215px;
+    width:28%;
 }
 
 #header-menu{
-	float:left;
-	width:25%;/*antes 22%;*/
+	
+	width:28%;/*antes 100%*/
+	position:absolute;
+	margin-left:72%;
 }
 /*fin estilos nuestros*/
 
@@ -394,6 +396,7 @@ and (orientation : portrait) {
 	float:left;
 	width:22%;
 }
+
 /*fin estilos nuestros*/
 
 }
@@ -409,7 +412,7 @@ and (orientation : portrait) {
 }
 #site-title {
 	font-size: 30px;
-    font-size: 3rem;
+    	font-size: 3rem;
 }
 #site-description {
 	font-size: 13px;
@@ -417,13 +420,15 @@ and (orientation : portrait) {
     line-height: 1.4;
 }
 
+/*ESTILOS MODIFICADOS*/
 #header-right {
-    max-width: 100%;
-    /*width: 100%;*/
+    /*max-width: 100%;*/
     padding:0px;/*antes no estaba*/
     margin-top:215px;/*antes no estaba*/
-    margin-right:-43%;/*antes no estaba*/
+    width:28%;
 }
+
+/*fin estilos modificados*/
 
 
 
@@ -519,12 +524,15 @@ figure.featured-homepage-image a img {
 
 /*ESTILOS NUESTROS*/
 #hgroup-wrap{
-	width:70%;
+	float:left;
+	width:100%;
 }
 
 #header-menu{
 	
-	width:30%;/*antes 100%*/
+	width:28%;/*antes 100%*/
+	position:absolute;
+	margin-left:72%;
 }
 /*fin estilos nuestros*/
 
@@ -632,6 +640,7 @@ figure.featured-homepage-image a img {
 #header-menu{
 	z-index:0;
 	width:100%;
+	margin-left:0px;
 }
 
 /*ESTILOS NUESTROS*/

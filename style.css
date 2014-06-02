@@ -589,7 +589,10 @@ img#wpstats {
     border-left: none;
 }
 #header-menu {
+	
+
 	background-color: #3a3d41;
+	
 	margin-bottom: 0;
 }
 #header-menu #access {
@@ -603,6 +606,7 @@ img#wpstats {
 	list-style: none;
 	padding-left: 0;
 	text-align: center;
+	
 }
 
 /*ESTILOS NUESTROS*/
@@ -663,7 +667,9 @@ img#wpstats {
 } 
 #header-menu ul.menu li:hover > a,
 #header-menu ul.menu a:focus {
+	/* ESTILOS COMENTADOS
 	background-color: #2d2d2d;
+	*/
 }
 #header-menu ul.menu li:hover > ul {
 	display: block;
@@ -955,7 +961,7 @@ img#wpstats {
 	padding-top: 0.5rem;
 }
 
-/*ESTOS SON LOS QUE HEMOS HEREDADO PARA MNEJAR LOS DESTACADOS (DE 767 PARA ARRIBA)*/
+/*ESTOS SON LOS QUE HEMOS HEREDADO PARA MANEJAR LOS DESTACADOS (DE 767 PARA ARRIBA)*/
 #featured-post figure {
 	margin-bottom: 15px;
 	margin-bottom: 1.5rem;
@@ -1611,7 +1617,10 @@ input#s {
 	float: right;
 	font-size: 13px;
 }
+
+
 #header-right #s {
+	/* ESTILOS COMENTADOS
 	float: right;
 	-webkit-transition-duration: 400ms;
 	-webkit-transition-property: width, background;
@@ -1624,11 +1633,17 @@ input#s {
 	-o-transition-timing-function: ease;
 	width: 72px;
 	width: 7.2rem;
+	*/
 }
 #header-right #s:focus {
+	/* ESTILOS COMENTADOS
 	width: 166px;
 	width: 16.6rem;
+	*/
 }
+
+
+
 #header-right .widget-title {
 	font-size: 16px;
 	font-size: 1.6rem;
@@ -1646,6 +1661,9 @@ textarea {
 }
 #header-right .widget:last-child {
 	margin-bottom: 0;
+	/*ESTILOS NUESTROS*/
+	width:100%;
+	/*fin estilos nuestros*/
 }
 #header-right .menu,
 #header-right .widget_text {
