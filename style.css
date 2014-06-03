@@ -528,7 +528,7 @@ img#wpstats {
 
 #site-logo a {
     display: block;
-    line-height: 0;
+    line-height: 50px;
 }
 #hgroup {
     display: block;

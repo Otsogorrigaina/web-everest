@@ -427,7 +427,6 @@ and (orientation : portrait) {
     margin-top:215px;/*antes no estaba*/
     width:28%;
 }
-
 /*fin estilos modificados*/
 
 
@@ -528,11 +527,36 @@ figure.featured-homepage-image a img {
 	width:100%;
 }
 
+#header-left{
+	width:72%;
+	height:258px;
+}
+
+#header-left h1{
+	display:none;
+}
+
+#header-left #hgroup{
+	margin-left:10%;
+	text-align:center;
+	margin-top:60px;
+	
+}
+
+#header-left #hgroup h1{
+	display:block;
+		font-size:2em;
+}
+
 #header-menu{
 	
 	width:28%;/*antes 100%*/
 	position:absolute;
 	margin-left:72%;
+}
+
+#header-menu nav#access div.menu-header-container ul li a{
+	color:rgb(64,64,64);
 }
 /*fin estilos nuestros*/
 
@@ -641,9 +665,9 @@ figure.featured-homepage-image a img {
 	z-index:0;
 	width:100%;
 	margin-left:0px;
+	background-color: #3a3d41;
 }
 
-/*ESTILOS NUESTROS*/
 .menu {
 	display: none;
 }
